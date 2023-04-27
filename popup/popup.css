@@ -1,0 +1,59 @@
+body {
+    width: 15rem;
+    background-color: #040404;
+  }
+
+  .logo {
+    width: 50%;
+    display: block;
+    margin: auto;
+  }
+
+  .container {
+    margin: auto;
+    padding: 10px 15px;
+    position: relative;
+    border: 3px solid rgb(255, 255, 255);
+  }
+
+  .vertical-center {
+    width: 100%;
+  }
+  
+  span {
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+  } 
+
+  p {
+    font-size: 16px;
+    color: rgb(176, 176, 176);
+    margin: 10px 0px 0px 0px;
+  } 
+  .button-32 {
+    background-color: #fff000;
+    border-radius: 12px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    font-weight: bold;
+    padding: 10px 15px;
+    text-align: center;
+    transition: 200ms;
+    width: 100px;
+    font-size: 16px;
+    touch-action: manipulation;
+  }
+  
+  .button-32:not(:disabled):hover,
+  .button-32:not(:disabled):focus {
+    outline: 0;
+    background: #f4e603;
+    box-shadow: 0 0 0 2px rgba(0,0,0,.2), 0 3px 8px 0 rgba(0,0,0,.15);
+    color: rgb(255, 255, 255);
+  }
+  
+  .button-32:disabled {
+    filter: saturate(0.2) opacity(0.5);
+    -webkit-filter: saturate(0.2) opacity(0.5);
+    cursor: not-allowed;
+  }
